@@ -26,3 +26,8 @@ function getRandomFoodPosition(){
     }
     return newFoodPosition
 }
+
+
+export function restFood(){
+    food = getRandomFoodPosition()
+}
